@@ -1,0 +1,350 @@
+.header-color {
+  background: #0cebeb;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  top:0;
+  margin-left:0;
+  margin-bottom:0;
+  background-position: sticky;
+
+  }
+  
+ .landing-grid {
+    background: #0cebeb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+    text-align: left;
+    position: fixed;
+    padding-left:20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+  }
+.landing-grid .block{
+    flex:0 0 75%;
+    max-width:50%;
+    padding-left:0px;
+    margin-top:90px;
+}
+.landing-grid .block hr {
+  width:100%;
+}
+ .landing-grid .block h1 ,h5 {
+  text-align:left;
+  color:#ffffff;
+  font-size:50px;
+  font-weight: 700;
+  
+}
+.landing-grid .block h3{
+  text-align:left;
+  margin-left:0px;
+  color:#ffffff;
+  font-size:25px;
+  font-weight: 450;
+  margin-left:0px;
+  padding-left:10px;
+} 
+.landing-grid .block .cv-btn a {
+border-radius:4px;
+color:#ffffff;
+border: 1px solid #ffffff;
+padding:12px 25px;
+text-decoration:none;
+display: inline-block;
+font-size:14px;
+text-transform: uppercase;
+font-weight: 600;
+transition: all .5s ease;
+background-color: transparent;
+}
+.landing-grid .block .cv-btn a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+ 
+
+/* about page css*/
+.about-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+.about-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-grid h2 {
+  font-family: 'Oxygen', sans-serif;
+}
+.about-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+.info .list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 5rem;
+  flex:0 0 calc(50% - 15px);
+  max-width:calc(50% - 15px);
+  margin-top: 10px;
+  border-bottom:1px solid #dee2e6;
+  padding-bottom:1px;
+}
+.about-body .about-grid  .info .list .label{
+  padding-right:10px;
+  color:#000000;
+  font-weight: 600;
+  font-style:bold;
+  font-size: 20px;
+}
+
+.avatar-img {
+  height: 70px;
+  padding-top: 3em;
+}
+
+.banner-text {
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  width: 30%;
+  padding-left:20px;
+  margin: auto;
+}
+.banner-text p {
+  color: white;
+  font-size: 10px;
+  padding: 1em;
+}
+
+
+
+
+.social{
+  margin-bottom:30px;
+  flex:50% 50% 100%;
+  max-width: 100%;
+  text-align:left;
+  padding-top: 15px;
+}
+.social a{
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1px 12px;
+  transition: all .5s ease;
+  text-decoration: none;
+  margin-top:0;
+}
+ .social a:hover{
+  color:#0cebeb;
+}
+
+.contact-container {
+  max-width: 400px;
+  margin-top: 100px;
+  margin-left:400px; 
+}
+
+/* contact form */
+
+#contact-form, #login {
+  width: 300px;
+  border: 1px solid #d6d7da;
+  padding: 0px 15px 15px 15px;
+  border-radius: 5px;
+  font-family: arial;
+  line-height: 16px;
+  color: #333333;
+  font-size: 14px;
+  background: #ffffff;
+  margin: 100px auto;
+}
+
+form label, form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 90%;
+}
+
+form input {
+  padding: 10px;
+  border: solid 1px #BDC7D8;
+
+}
+
+.button {
+  background-color: #00BFFF;
+  border-color: black;
+  font-weight: bold;
+  padding: 15px 15px;
+  color: #ffffff;
+  width:97%;
+  
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #60EFFF;
+  margin-bottom: 10px;
+}
+
+/* login page */
+
+.loginbox{
+  border: 1px solid #d6d7da;
+  
+  font-family: sans-serif;
+  font-size:20px;
+  width: 400px;
+  height: 400px;
+  background:white;
+  color:black;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 40px 30px;
+  
+}
+
+h2{
+  margin-bottom: 10px; 
+  text-align: center;
+  font-family:sans-serif;
+  font-size: 10px;
+}
+
+.loginbox p{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  
+}
+
+.loginbox input{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid black;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: black;
+  font-size: 16px;
+}
+.loginbox input[type="button"]
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #60EFFF;
+  color: black;
+  font-size: 18px;
+  border-radius: 50px;
+  width:100%;
+}
+.loginbox input[type="button"]:hover
+{
+  cursor: pointer;
+  background:  #60EFFF;
+  color: #000;
+}
+.loginbox a{
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size: 12px;
+  line-height: 50px;
+  color: darkgrey;
+}
+
+.loginbox a:hover
+{
+  color: #ffc107;
+}
+
+  /* data app */
+.App {
+  margin: auto;
+  width: 50%;
+}
+
+.myForm{
+  width: 100%;
+  background-color: #dfe6e9;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.formField{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.myButton{
+  width: 100%;
+  background-color: #00b894;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.myList{
+  list-style: none;
+}
+
+.myListButton{
+  display: inline-block;
+  height: auto;
+  width: auto;
+  border-radius: 7px;
+  border: 1px solid #00b894;
+  margin: 3px 5px;
+}
+
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}*/
